@@ -1,7 +1,7 @@
 api_design-resources
 ====================
 
-A list of resources to design good API.
+2014.07.05
 
 - [Heroku HTTP API Design Guide](https://github.com/interagent/http-api-design) - Heroku でまとめられた、API のデザイン指針
 - [《REST思想》と《リソース指向》と《Webページ》に関する（主にRailsの）話](http://qiita.com/tkawa/items/9bd50e80cfe354062dfb) - よい URL とは？ REST とリソース指向から読み解くURL
@@ -22,7 +22,7 @@ Tools
 全体的に
 ---
 
-### JSON Schema の台頭
+#### JSON Schema の台頭
 
 JSON Schema のようなものを使い、API のメタ情報（どんなリクエストからどんなレスポンスが返るかetc..）を記述。これを利用して API に関する諸作業を自動化しようという流れがある。 ([すべてがJSONになる](http://r7kamura.hatenablog.com/entry/2014/06/10/023433))
 
@@ -36,7 +36,7 @@ JSON Schema のようなものを使い、Swagger UI みたいな試せる系ド
 
 このへん、まだまだエコシステムが整っていないけれど、これからどんどん整っていくと思っています。
 
-### フロントエンドに最適化した API
+#### フロントエンドに最適化した API
 
 HTTP のネットワーキングのパフォーマンスについて知見の共有が進み、API のデザインも沿ったものにしなければ、という流れがある。
 
@@ -47,7 +47,7 @@ HTTP のネットワーキングのパフォーマンスについて知見の共
 
 Etsy などは、API をカスタムメイド出来るようにしており、モバイル開発チームで最適な API を自らデザインしている。（[モバイルAPIデザインのまとめ](http://wazanova.jp/items/1283)）
 
-### 一貫性のための規約の確立
+#### 一貫性のための規約の確立
 
 API に関する規約がまだあまり確立していません。
 広く用いられる規約を適用し、一貫性を保つことで、API を利用するための学習コストを劇的に減らすことが出来ます。
