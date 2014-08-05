@@ -9,4 +9,12 @@ A list of resources to design good API.
 - [すべてがJSONになる](http://r7kamura.hatenablog.com/entry/2014/06/10/023433) - JSON Schema を利用して、Validation や Doc, API Client を自動的に用意する
 - [NetflixのAPIプラットフォーム](http://wazanova.jp/items/1114) - フロントエンドチームが API をカスタマイズできるようにしている
 - [モバイルAPIデザインのまとめ](http://wazanova.jp/items/1283) - Etsy での API デザイン。モバイルのために、如何に必要な API コール回数を減らすかを考える。
-- [[その１] Netflix: APIの改善と継続的デリバリー](http://wazanova.jp/items/678) - Netflix は如何に 800 種のデバイスに利用される API を運用しているのか？
+- [\[その１\] Netflix: APIの改善と継続的デリバリー](http://wazanova.jp/items/678) - Netflix は如何に 800 種のデバイスに利用される API を運用しているのか？
+- [Ruby RoguesメンバとiOSエンジニアのAPI議論](http://wazanova.jp/items/1211) - 一貫性、ドキュメント、モバイル
+
+Tools
+---
+
+- [Apiary](http://apiary.io/) - API Blueprint というスキーマから、Validation や Doc などを生成
+- [Swagger UI](https://github.com/wordnik/swagger-ui) - JSON から「試せる API Doc」を生成
+- [prmd](https://github.com/interagent/prmd) - JSON Schema を色々出来るツール by Heroku
